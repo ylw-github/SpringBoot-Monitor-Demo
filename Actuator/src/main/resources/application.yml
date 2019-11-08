@@ -7,7 +7,8 @@ management:
 spring:
   profiles:
     active: prod
-###接口 相当在配置文件中，配置相关info开头的配置信息
+server:
+  port: 8082
 info:
   name: ylw
-  motto: 一个人走到何种境地，全是因为自己！
+  motto: 一个人走到何种境地，全都因为自己！
