@@ -1,0 +1,13 @@
+###通过下面的配置启用所有的监控端点，默认情况下，这些端点是禁用的；
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+spring:
+  profiles:
+    active: prod
+###接口 相当在配置文件中，配置相关info开头的配置信息
+info:
+  name: ylw
+  motto: 一个人走到何种境地，全是因为自己！
